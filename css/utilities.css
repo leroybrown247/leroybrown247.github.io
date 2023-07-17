@@ -29,3 +29,24 @@
     border-color: var(--primary);
     color: var(--pure);
 }
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+    transition: all 0.3s ease;
+
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: var(--dark);
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.justify-center {
+    justify-content: center;
+}

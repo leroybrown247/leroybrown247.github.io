@@ -25,7 +25,8 @@ body {
 
 }
 header {
-    background: var(--dark)
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
 .container {
@@ -43,7 +44,7 @@ header nav .left a {
 }
 
 header nav .left a:hover {
-    color: var(--primary)
+    color: var(--primary);
 }
 
 header nav {
@@ -54,3 +55,38 @@ header nav {
 header nav .branding {
     margin-right: 10rem;
 }
+
+/* ==========================================================================
+	 Hero Section
+	 ========================================================================== */  
+
+.hero {
+    padding-bottom: 5rem;
+}
+
+.hero .left img {
+    width: 400px;
+    border-radius: 500px;
+}
+
+.hero .right {
+    color: var(--pure);
+    margin-top: -5rem
+}
+
+.hero .right h6 {
+    font-size: 1.6rem;
+}
+
+.hero .right h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span {
+    color: var(--primary);
+}
+
+
