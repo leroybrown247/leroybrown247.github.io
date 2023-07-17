@@ -1,5 +1,56 @@
+@import 'utilities.css';
+
+/* ==========================================================================
+	 Base Styles
+	 ========================================================================== */ 
+
 :root {
  --primary : #FFB848;
  --pure : #FFFFFF;
- --dark : #232326;
+ --dark : #493343;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* ==========================================================================
+	 Header
+	 ========================================================================== */  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+    background: var(--dark)
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    color: var(--pure);
+    margin-right: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+header nav .left a:hover {
+    color: var(--primary)
+}
+
+header nav {
+    padding: 2rem 0;
+
+}
+
+header nav .branding {
+    margin-right: 10rem;
 }
