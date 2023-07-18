@@ -89,4 +89,37 @@ header nav .branding {
     color: var(--primary);
 }
 
+/* ==========================================================================
+	 About Section
+	 ========================================================================== */ 
 
+.about {
+    padding: 3rem 0;
+}
+
+.about .social a img {
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 1rem;
+}
+
+.about .left img {
+    height: 500px;
+    border-radius: 1000px;
+}
+
+.about .right h1 {
+    font-size: 50px;
+}
+
+.about .right h1 span {
+color: var(--primary);}
+
+.about .right h3 {
+    font-size: 20px;
+    line-height: 3;
+}
+
+.about .right p {
+    font-size: 20px;
+}
