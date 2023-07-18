@@ -27,7 +27,7 @@
 .btn-primary:hover {
     background: transparent;
     border-color: var(--primary);
-    color: var(--pure);
+    color: var(--primary);
 }
 
 .btn-secondary {
