@@ -10,6 +10,10 @@
  --dark : #493343;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--dark);
     font-family: "Poppins", sans-serif;
@@ -207,6 +211,9 @@ body {
     border-radius: 1000px;
 }
 
+/*About image animation starts*/
+
+
 .about .left img {
     animation: morph 8s ease-in-out infinite;
     background-image: url(/static/media/pfp_webp.f334283….webp);
@@ -232,6 +239,8 @@ body {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 }
+
+/*About image animation ends*/
 
 
 .about .right h1 {
