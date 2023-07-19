@@ -10,15 +10,33 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
-    <!--Hero section starts-->
+    <div class="site-main-wrapper">
+        
+        <div class="hamburger">
+            <button class="hamburger-button">
+                <img src="./images/hamberger.svg" alt="">
+            </button>
+        </div>
+        <div class="mobile-nav">
+            <button class="times">
+                <img src="./images/times.svg" alt="">
+            </button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+         <!--Hero section starts-->
 
     <header id="home">
         <div class="container">
-            <nav class="flex items-center space-between">
+            <nav id="main-nav" class="flex items-center space-between">
                 <div class="left flex items-center items items-center">
                     <div class="branding">
-                        <img src="./images/Logo Place Holder.png" alt="">
+                        <img src="./images/LOGO.png" alt="">
                     </div>
                     <div>
                         <a href="#home">Home</a>
@@ -36,8 +54,9 @@
                         <img src="./images/Hero-Image-2.png" alt="">0
                     </div>
                         <div class="right flex-1">
-                            <h6>Leroy Brown</h6>
-                            <h1>Kia ora, I'm a Creative  <span>Full Stack Developer</span></h1>
+                            <!-- <h6>Leroy Brown</h6> -->
+                            <h1 class="hero-heading"><span>Creative </span>Full Stack Developer</h1>
+                            <p>Kia Ora, I'm Leroy Brown. A passionate Full Stack Developer based in Auckland, New Zealand 📍</p>
                             <div>
                                 <div class="stack-two flex">
                                     <p>Tech Stack |</p>
@@ -68,9 +87,15 @@
             </div>
                 <div class="right flex-1" >
                     <h1>About <span>Me</span></h1>
-                    <h3>Hi, I am Leroy Brown</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consectetur atque facere blanditiis unde quis alias dicta, fugit saepe beatae natus doloremque necessitatibus dolore totam ex! Rerum consequuntur quibusdam fugiat.</p>
+                    <h3>I am Dedicated Full Stack Developer</h3>
+                    <p>Transitioning from a successful career in graphic and digital design, I quickly found that I was equipped with a diverse skill set. With a strong foundation in design and technology, I bring a unique perspective to software development.
+                    <br>
+                    My goal is to create innovative solutions that blend aesthetics with functionality and accessibility.
+                    <br>    
+                    I have a healthy passion for the outdoors ⛰️ and an unhealthy love for custard and cream doughnuts 🍩.</p>
+                    
                     <div class="social flex">
+                        <p>Find Me |</p>
                         <a href="#"> <img src="./images/linkedin.png"></a>
                         <a href="#"> <img src="./images/instagram.png"></a>
                     </div>
@@ -84,22 +109,22 @@
 
     <section class="projects" id="projects">
         <div class="container">
-            <h1 class="section-heading">My <span>projects</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et soluta, ea repellat rem placeat deserunt quasi. Expedita animi accusantium distinctio beatae velit aspernatur alias quod nam cum, aliquid fuga aperiam!</p>
+            <h1 class="section-heading">My <span>Projects</span></h1>
+            <p>See below for my latest projects</p>
             <div class="card-wrapper">
                 <div class="card">
                     <img src="./images/code.png" alt="">
-                    <h2>Projects</h2>
+                    <h2><span>Project 1: </span>Bananas</h2>
+                    <p>A E-Commerce store for high end bananas.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/code.png" alt="">
+                    <h2><span>Project 2: </span>To Come</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi officiis ut quaerat explicabo totam illum debitis ex, aperiam, ad asperiores, possimus facere minus corporis. Eos neque esse maxime culpa.</p>
                 </div>
                 <div class="card">
                     <img src="./images/code.png" alt="">
-                    <h2>Projects</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi officiis ut quaerat explicabo totam illum debitis ex, aperiam, ad asperiores, possimus facere minus corporis. Eos neque esse maxime culpa.</p>
-                </div>
-                <div class="card">
-                    <img src="./images/code.png" alt="">
-                    <h2>Projects</h2>
+                    <h2><span>Project 3: </span>To come</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi officiis ut quaerat explicabo totam illum debitis ex, aperiam, ad asperiores, possimus facere minus corporis. Eos neque esse maxime culpa.</p>
                 </div>
             </div>
@@ -145,15 +170,15 @@
     <!--Footer section starts-->
 
     <footer>
-        <img src="./images/Logo Place Holder.png" alt="">
+        <img src="./images/LOGO.png" alt="">
         <div class="footer-text">
         I am a footer
         </div>
     </footer>
 
     <!--Footer section ends-->
-
-
-
+    </div>
+   
+<script src="app.js"></script>
 </body>
 </html>
