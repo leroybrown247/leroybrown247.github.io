@@ -435,15 +435,25 @@ footer .footer-text {
     padding-bottom: 2rem;
 }
 
+footer.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  footer.footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer.footer ul li a {
+    text-decoration: none;
+    color: var(--primary);
+  }
+
 /* ==========================================================================
 Responsive Section
 ========================================================================== */ 
-
-@media (max-width: 1024px) {
-    header #main-nav {
-        display: none;
-    }
-}
 
 .site-main-wrapper {
     position: relative;
@@ -454,6 +464,7 @@ Responsive Section
     top: 40px;
     right: 40px;
     z-index: 11;
+    transition: all 0.5s ease-in-out;
 }
 
 .site-main-wrapper .hamburger button {
@@ -480,6 +491,7 @@ Responsive Section
     text-align: center;
     transform: translateX(-100%);
     transition: all 0.5s ease-in-out;
+    animation: fadeIn 0.3s ease forwards;
 }
 
 .open {
@@ -512,3 +524,127 @@ Responsive Section
 .mobile-nav ul li {
     margin-bottom: 2rem;
 }
+
+@media (min-width: 1025px) {
+    .site-main-wrapper .hamburger {
+      display: none;
+    }
+  }
+  
+
+@media (max-width: 1024px) {
+ 
+  /* .hamburger-button {
+    display: none;
+  } */
+
+    header #main-nav {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 15rem;
+        padding-left: 1rem;
+    }
+
+    .hero .left img {
+        width: 260px;
+        height: 260px;
+    }
+    
+    .hero .right h1 {
+        font-size: 2rem;
+    }
+
+    .hero .right .stack-two {
+        white-space: nowrap; 
+    }
+
+    .about {
+        padding: 3rem;
+    }
+
+    .about .left img {
+       display: none;
+    }
+
+    .about .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about .right {
+        flex-basis: 100%;
+    }
+
+    .about .right h1 {
+        font-size: 2rem; 
+    }
+
+    .about .right .social {
+        white-space: nowrap; 
+    }
+
+    .projects .card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 5rem;
+
+    }
+
+    .projects .card-wrapper .card {
+        width: 40rem;
+    }
+}
+
+@media (max-width:567px) {
+    .hero {
+        flex-direction: column;
+        overflow: hidden;
+        padding-bottom: 10rem;
+    }
+
+    .hero .left {
+        margin-top: -10rem;
+    }
+
+    .hero .right {
+        padding-top: 4rem;
+        text-align: center;
+    }
+
+    .hero .right h1 {
+        font-size: 2rem;
+        word-break: break-word; 
+      }
+
+      .hero .right p {
+        font-size: 14px;
+    }
+    
+      .hero .right .stack-two {
+        flex-wrap: wrap; 
+        justify-content: center; 
+        align-items: center; 
+      }
+    
+      .hero .right .stack-two a {
+        white-space: nowrap;
+        justify-content: center;
+      }
+
+      .about .right p {
+        font-size: 14px;
+      }
+
+      .projects .card-wrapper {
+        display: grid;
+        padding-left: 0%;
+      }
+
+      .projects .card-wrapper .card {
+        width: 100%;
+        justify-content: center;
+    }
+    
+}
+

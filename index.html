@@ -22,14 +22,14 @@
                 <img src="./images/times.svg" alt="">
             </button>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home" class="click">Home</a></li>
+                <li><a href="#about" class="click-1">About</a></li>
+                <li><a href="#projects" class="click-2">Projects</a></li>
+                <li><a href="#contact" class="click-3">Contact</a></li>
             </ul>
         </div>
         </div>
-         <!--Hero section starts-->
+    <!--Hero section starts-->
 
     <header id="home">
         <div class="container">
@@ -45,16 +45,13 @@
                         <a href="#contact">Contact</a>
                     </div>
                 </div>
-                <!-- <div class="right">
-                    <button class="btn btn-primary">Contact</button>
-                </div> -->
+               
             </nav>
                 <div class="hero flex items-center space-between">
                     <div class="left flex-1 justify-center">
                         <img src="./images/Hero-Image-2.png" alt="">0
                     </div>
                         <div class="right flex-1">
-                            <!-- <h6>Leroy Brown</h6> -->
                             <h1 class="hero-heading"><span>Creative </span>Full Stack Developer</h1>
                             <p>Kia Ora, I'm Leroy Brown. A passionate Full Stack Developer based in Auckland, New Zealand 📍</p>
                             <div>
@@ -69,7 +66,9 @@
                                 </div>
                                     
                                 </div>
-                            <button class="btn btn-secondary">Download CV</button>
+                                <a href="./Leroy-Dev-CV.pdf" download="Leroy-Dev-CV">
+                                    <button class="btn btn-secondary">Download CV</button>
+                                </a>
                         </div>
                     </div>
                 </div>
@@ -96,8 +95,9 @@
                     
                     <div class="social flex">
                         <p>Find Me |</p>
-                        <a href="#"> <img src="./images/linkedin.png"></a>
-                        <a href="#"> <img src="./images/instagram.png"></a>
+                        <a href="https://github.com/leroybrown247/" target="_blank"> <img src="./images/Git.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/leroybrown247/" target="_blank"> <img src="./images/linkedin.png" alt=""></a>
+                        <a href="https://www.instagram.com/leroybrown247/" target="_blank"> <img src="./images/instagram.png" alt=""></a>
                     </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
                 <div class="card">
                     <img src="./images/code.png" alt="">
                     <h2><span>Project 1: </span>Bananas</h2>
-                    <p>A E-Commerce store for high end bananas.</p>
+                    <p>A E-Commerce store for high end bananas. Click to see more!</p>
                 </div>
                 <div class="card">
                     <img src="./images/code.png" alt="">
@@ -150,7 +150,7 @@
                 <h4>leroybrown247@gmail.com</h4>
             </div>
         </div>
-        <form action="">
+        <!-- <form action="">
             <div class="input-wrap">
                 <input type="text" placeholder="Your Name">
                 <input type="email" placeholder="Your Email">
@@ -162,17 +162,20 @@
             <div class="btn-wrapper">
                 <button class="btn btn-primary">Send</button>
             </div>
-        </form>
+        </form> -->
     </div>
 </section>
     <!--Contact section ends-->
 
     <!--Footer section starts-->
 
-    <footer>
+    <footer class="footer">
         <img src="./images/LOGO.png" alt="">
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
         <div class="footer-text">
-        I am a footer
+            &copy; 2023 Leroy Brown Website. All rights reserved.
         </div>
     </footer>
 
