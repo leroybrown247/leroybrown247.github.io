@@ -11,6 +11,7 @@
 }
 
 body {
+    color: var(--dark);
     font-family: "Poppins", sans-serif;
 }
 
@@ -53,7 +54,7 @@ header nav {
 }
 
 header nav .branding {
-    margin-right: 10rem;
+    margin-right: 23rem;
 }
 
 /* ==========================================================================
@@ -61,8 +62,73 @@ header nav .branding {
 	 ========================================================================== */  
 
 .hero {
-    padding-bottom: 5rem;
+    padding-bottom: 20rem;
+    padding-top: 10rem;
+
 }
+
+/*Hero image animation starts*/
+
+.hero .left img {
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/static/media/pfp_webp.f334283….webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid var(--primary);
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 25rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 25rem;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:var(--pure);
+    font-family: Poppins, sans-serif;
+    position: relative;
+}
+
+/* Scrollbar styles */
+* {
+    scrollbar-color: var(--primary), var(--pure);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:var(--pure);
+    border-radius: 20px;
+}
+
+/*Hero image animation ends*/
+
 
 .hero .left img {
     width: 400px;
@@ -74,6 +140,39 @@ header nav .branding {
     margin-top: -5rem
 }
 
+.hero .right .stack {
+    display: flex;
+    align-items: center;
+}
+
+.hero .right .stack a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero .right .stack a img {
+    height: 30px;
+}
+
+.stack-two.flex {
+    display: flex;
+    align-items: center;
+}
+
+.stack-two.flex p {
+    margin-right: 10px;
+}
+
+.hero .right .stack-two a img {
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .hero .right h6 {
     font-size: 1.6rem;
 }
@@ -82,7 +181,7 @@ header nav .branding {
     font-size: 4rem;
     font-weight: 100;
     line-height: 1.2;
-    margin-bottom: 2rem;
+    /* margin-bottom: .5rem; */
 }
 
 .hero .right h1 span {
@@ -108,6 +207,33 @@ header nav .branding {
     border-radius: 1000px;
 }
 
+.about .left img {
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/static/media/pfp_webp.f334283….webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid var(--primary);
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 25rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 25rem;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
 .about .right h1 {
     font-size: 50px;
 }
@@ -125,36 +251,25 @@ color: var(--primary);}
 }
 
 /* ==========================================================================
-	 Skills Section
+	 projects Section
 	 ========================================================================== */ 
 
-.skills {
+.projects {
     background: var(--dark);
-    clip-path: polygon(
-    74% 7%,
-    100% 0%,
-    100% 35%,
-    100% 70%,
-    100% 100%,
-    50% 100%,
-    0% 100%,
-    0% 70%,
-    0% 35%,
-    0% 0%
-    );
 }
 
-.skills .container {
+.projects .container {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.skills .section-heading {
-    color: var(--pure);
+.projects .section-heading {
+    color: var(--dark);
     font-size: 3rem;
     text-align: center;
 }
 
-.skills .section-heading span {
+.projects .section-heading span {
     color: var(--primary)
 }
 
@@ -168,14 +283,14 @@ color: var(--primary);}
     height: 100px;
 }
 
-.skills .card-wrapper {
+.projects .card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2rem;
     grid-row-gap: 6rem;
 }
 
-.skills .card-wrapper .card {
+.projects .card-wrapper .card {
     background: var(--pure);
     padding: 3rem 2rem;
     position: relative;
@@ -183,7 +298,7 @@ color: var(--primary);}
     transition: all 0.3s ease;
 }
 
-.skills .card-wrapper .card h2 {
+.projects .card-wrapper .card h2 {
     margin-bottom: 1rem;
 }
 
@@ -195,7 +310,7 @@ color: var(--primary);}
     transform: translateX(-50%);
 }
 
-.skills .card-wrapper .card:hover {
+.projects .card-wrapper .card:hover {
     background: var(--primary);
 }
 
@@ -205,9 +320,9 @@ Contact Section
 
 .contact .section-heading {
     color: var(--dark);
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 2rem;
     font-size: 50px;
 
 }
@@ -265,4 +380,23 @@ Contact Section
 
 .contact .btn-wrapper {
     text-align: center;
+}
+
+/* ==========================================================================
+Footer Section
+========================================================================== */ 
+
+footer {
+    background: var(--dark);
+    text-align: center;
+}
+
+footer img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer .footer-text {
+    color: var(--pure);
+    padding-bottom: 2rem;
 }
