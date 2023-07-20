@@ -288,75 +288,86 @@ color: var(--primary);}
 	 projects Section
 	 ========================================================================== */ 
 
-.projects {
-    background: var(--dark);
-}
-
-.projects .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.projects .section-heading {
-    color: var(--pure);
-    font-size: 3rem;
-    text-align: center;
-}
-
-.projects .section-heading span {
-    color: var(--primary)
-}
-
-.section-heading + p {
-    color: var(--pure);
-    text-align: center;
-    margin-bottom: 6rem;
-}
-
-.card-wrapper img {
-    height: 100px;
-}
-
-.projects .card-wrapper {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 2rem;
-    grid-row-gap: 6rem;
-}
-
-.projects .card-wrapper .card {
-    background: var(--pure);
-    padding: 3rem 2rem;
-    position: relative;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.projects .card-wrapper .card h2 {
-    margin-bottom: 1rem;
-}
-
-.card-wrapper img {
-    height: 100px;
-    position: absolute;
-    top: -3.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.projects .card-wrapper .card:hover {
-    background: var(--primary);
-}
-
-.btn-with-padding {
-    margin-top: 5rem;
-    border-color: var(--dark);
-    color: var(--dark);
-}
-
-.btn-with-padding:hover {
-    border-color: var(--dark);
-}
+     .projects {
+        background: var(--dark);
+    }
+    
+    .projects .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    
+    .projects .section-heading {
+        color: var(--pure);
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .projects .section-heading span {
+        color: var(--primary);
+    }
+    
+    .projects p {
+        color: var(--dark);
+        text-align: center;
+        margin-bottom: 4rem;
+        font-size: 20px;
+    }
+    
+    .image-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+    
+    .image-wrapper img {
+        animation: morph 8s ease-in-out infinite;
+        background-image: url(/static/media/pfp_webp.f334283….webp);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid var(--primary);
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        height: 25rem;
+        position: relative;
+        transition: all 1s ease-in-out;
+        width: 25rem;
+    }
+    
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 2rem;
+        grid-row-gap: 6rem;
+    }
+    
+    .card-wrapper .card {
+        background: var(--pure);
+        padding: 3rem 2rem;
+        position: relative;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    
+    .card-wrapper .card h2 {
+        margin-bottom: 2rem;
+    }
+    
+    .card-wrapper .card:hover {
+        background: var(--primary);
+    }
+    
+    .btn-with-padding {
+        margin-top: 1rem;
+        border-color: var(--dark);
+        color: var(--dark);
+    }
+    
+    .btn-with-padding:hover {
+        border-color: var(--dark);
+    }
+    
 
 
 
