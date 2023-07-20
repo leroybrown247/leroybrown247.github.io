@@ -319,7 +319,7 @@ color: var(--primary);}
 
 .projects .card-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 2rem;
     grid-row-gap: 6rem;
 }
@@ -347,6 +347,18 @@ color: var(--primary);}
 .projects .card-wrapper .card:hover {
     background: var(--primary);
 }
+
+.btn-with-padding {
+    margin-top: 5rem;
+    border-color: var(--dark);
+    color: var(--dark);
+}
+
+.btn-with-padding:hover {
+    border-color: var(--dark);
+}
+
+
 
 /* ==========================================================================
 Contact Section
@@ -647,4 +659,6 @@ Responsive Section
     }
     
 }
+
+
 
