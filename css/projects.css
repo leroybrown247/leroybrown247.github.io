@@ -1,5 +1,5 @@
 .paragraph {
-    margin-bottom: 1em; /* Adjust the value as needed */
+    margin-bottom: 1em;
   }
   
   .video-link {
@@ -11,13 +11,13 @@
     font-size: 24px; 
     font-weight: bold;
     margin-bottom: 10px;
-    color: var(--dark); /* Adjust the color as needed */
+    color: var(--dark); 
   }
   
   .paragraph {
     font-size: 20px;
     line-height: 1.5;
-    color: var(--dark); /* Adjust the color as needed */
+    color: var(--dark); 
     margin-bottom: 20px;
   }
   

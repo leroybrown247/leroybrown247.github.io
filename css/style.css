@@ -656,13 +656,28 @@ Responsive Section
       }
 
       .projects .card-wrapper {
-        display: grid;
+        display: flex;
         padding-left: 0%;
+        flex-wrap: wrap;
       }
-
+      
+      .projects .card {
+        background: var(--pure);
+        padding: 3rem 2rem;
+        position: relative;
+        text-align: center;
+        transition: all 0.3s ease;
+        margin-bottom: 2rem; /* Add this to create some space between cards */
+    }
+    
       .projects .card-wrapper .card {
         width: 100%;
         justify-content: center;
+    }
+
+    .card-wrapper img {
+        height: 260px;
+        width: 260x;
     }
     
 }
