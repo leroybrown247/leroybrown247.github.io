@@ -556,10 +556,6 @@ Responsive Section
   
 
 @media (max-width: 1024px) {
- 
-  /* .hamburger-button {
-    display: none;
-  } */
 
     header #main-nav {
         display: none;
