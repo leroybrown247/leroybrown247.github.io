@@ -121,6 +121,7 @@ body {
 }
 
 /* Scrollbar styles */
+
 * {
     scrollbar-color: var(--primary), var(--pure);
     scrollbar-width: thin;
@@ -176,6 +177,7 @@ body {
 }
 
 .stack-two.flex p {
+    font-size: 1.4rem;
     margin-right: 10px;
 }
 
@@ -193,7 +195,7 @@ body {
     font-size: 4rem;
     font-weight: 100;
     line-height: 1.2;
-    /* margin-bottom: .5rem; */
+    margin-bottom: .5rem;
 }
 
 .hero .right h1 span {
@@ -201,7 +203,8 @@ body {
 }
 
 .hero .right p {
-    font-size: 20px;
+    font-size: 1.4rem;
+    line-height: 1.4;
 }
 
 /* ==========================================================================
@@ -433,12 +436,29 @@ Blog Section
 Contact Section
 ========================================================================== */ 
 
+.contact {
+    background-color: var(--dark);
+    color: var(--pure);
+}
+
 .contact .section-heading {
-    color: var(--dark);
+    color: var(--pure);
     padding-bottom: 3rem;
     text-align: center;
     padding-top: 2rem;
-    font-size: 50px;
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+
+}
+
+.contact h2 {
+    font-weight: 100;
+}
+
+.contact h4 {
+    font-weight: 100;
 
 }
 
@@ -551,7 +571,7 @@ Project Section
 .content .left img {
     background-position: 100%;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    border-radius: 50px;
     position: relative;
     width: 25rem;
 }
@@ -573,6 +593,12 @@ Project Section
   }
 
   .content .paragraph {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 1.2rem;
+  }
+
+  .content .list {
     font-size: 1.4rem;
     line-height: 1.4;
     margin-bottom: 1.2rem;
