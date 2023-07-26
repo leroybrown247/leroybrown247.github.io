@@ -34,3 +34,4 @@ click3.addEventListener('click', function() {
 viewProjectBtn.addEventListener('click', function() {
     window.location.href = '../projects/project1.html';
 });
+  

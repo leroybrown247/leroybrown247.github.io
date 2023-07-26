@@ -618,6 +618,26 @@ Project Section
     height: 30px;
     margin-right: 10px;
   }
+
+
+/* ==========================================================================
+Scroll To The Top Section
+========================================================================== */ 
+
+  /* Styling for the scroll to top button */
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+  }
+
+
 /* ==========================================================================
 Responsive Section
 ========================================================================== */ 

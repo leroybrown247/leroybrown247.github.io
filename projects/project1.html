@@ -26,7 +26,7 @@
         <img src="../images/times.svg" alt="">
       </button>
       <ul>
-        <li><a href="../index.html" class="click">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="#contact" class="click-3">Contact</a></li>
       </ul>
     </div>
@@ -163,9 +163,6 @@
                 </div>
         </div>
 
-
-      
-
     </section>
 
     <!--Content section ends-->
@@ -194,13 +191,13 @@
 
         <!--Contacts section ends-->
 
-      
     </main>
 
-    
+        <!--Footer section strats-->
+
 
     <footer class="footer">
-      <img src="./images/LOGO.png" alt="">
+      <img src="../images/LOGO.png" alt="">
       <ul>
         <li><a href="#">Home</a></li>
       </ul>
@@ -210,7 +207,41 @@
     </footer>
   </div>
 
+        <!--Footer section ends-->
+
+        <!-- Scroll to top button starts -->
+
+        <button id="scrollTopBtn" onclick="scrollToTop()">
+        <img src="../images/scroll.svg" alt="Scroll to top">
+        </button>
+
+        <!-- Scroll to top button ends -->
+  
   <script src="../app.js"></script>
+
+    <!-- Scroll to JS starts -->
+
+  <script>
+    // Function to scroll to the top of the page
+    function scrollToTop() {
+      // Scroll to the top with smooth behavior
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  
+    // Show/hide the "scroll to top" button based on user's scroll position
+    window.onscroll = function() {
+      const scrollTopBtn = document.getElementById('scrollTopBtn');
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollTopBtn.style.display = 'block';
+      } else {
+        scrollTopBtn.style.display = 'none';
+      }
+    };
+  </script>
+
+    <!-- Scroll to JS ends -->
+  
+
 </body>
 
 </html>
