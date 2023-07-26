@@ -457,9 +457,19 @@ Contact Section
     font-weight: 100;
 }
 
+.contact-link {
+    color: var(--pure);
+    text-decoration: none;
+    transition: color 0.3 ease;
+}
+
+.contact-link:hover {
+    color: var(--primary)
+}
+
 .contact h4 {
     font-weight: 100;
-
+    margin-top: 0.5rem;
 }
 
 .contact .container {
@@ -524,22 +534,36 @@ Footer Section
 footer {
     background: var(--dark);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer img {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
+
+.footer .social {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+
+}
+
+.footer .social a {
+    display: inline-block;
+    margin: 0 10px;
+   }
 
 footer .footer-text {
     color: var(--pure);
     padding-bottom: 2rem;
+    font-size: 20px;
 }
 
 footer.footer ul {
     list-style-type: none;
     padding: 0;
-    margin: 10px 0;
   }
   
   footer.footer ul li {
@@ -549,7 +573,8 @@ footer.footer ul {
   
   footer.footer ul li a {
     text-decoration: none;
-    color: var(--primary);
+    color: var(--pure);
+    font-size: 20px;
   }
 
 /* ==========================================================================
