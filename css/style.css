@@ -51,6 +51,7 @@ header {
 header nav .left a {
   color: var(--pure);
   margin-right: 2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -352,10 +353,6 @@ body {
   margin-bottom: 2rem;
 }
 
-.card-wrapper .card:hover {
-  background: var(--primary);
-}
-
 .btn-with-padding {
   margin-top: 1rem;
   border-color: var(--dark);
@@ -386,7 +383,8 @@ Blog Section
   color: var(--dark);
   text-align: center;
   margin-bottom: 4rem;
-  font-size: 20px;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
 }
 
 .myblog .section-heading span {
@@ -397,7 +395,11 @@ Blog Section
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  grid-column-gap: 3rem;
+  grid-column-gap: 0.2rem;
+}
+
+.myblog .card-wrapper .card {
+  border-radius: 50px;
 }
 
 .myblog .card-wrapper .card-content {
@@ -409,28 +411,44 @@ Blog Section
 }
 
 .myblog .blog-image-wrapper img {
-    display: flex;
-    border: 2px solid black;
-  }
-
-.myblog .card-content h1 {
-  margin-bottom: 1rem;
+  display: flex;
+  background-color: rgb(209, 209, 209);
+  border-radius: 50px 50px 0 0;
 }
 
-.myblog .card-content p {
+.myblog .wrappercard-wrapper-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 0 0 50px 50px;
+}
+
+.myblog .wrappercard-wrapper-content h1 {
+  margin-bottom: 2rem;
+}
+
+.myblog .wrappercard-wrapper-content p {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
 }
 
-.myblog .card-content q {
+.myblog .wrappercard-wrapper-content span {
   color: var(--dark);
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+.myblog .wrappercard-wrapper-content a {
+  color: var(--dark);
+  font-size: 1.4rem;
+  line-height: 1.4rem;
   text-decoration: none;
 }
 
-.myblog .section-heading + p {
-  margin-bottom: 3rem;
+.myblog .wrappercard-wrapper-content a:hover {
+  color: var(--primary);
+  text-decoration: underline;
 }
-
 
 /* ==========================================================================
 Contact Section
@@ -467,6 +485,8 @@ Contact Section
 }
 
 .contact h4 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
   font-weight: 100;
   margin-top: 0.5rem;
 }
@@ -556,7 +576,8 @@ footer img {
 footer .footer-text {
   color: var(--pure);
   padding-bottom: 2rem;
-  font-size: 20px;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
 }
 
 footer.footer ul {
@@ -572,7 +593,13 @@ footer.footer ul li {
 footer.footer ul li a {
   text-decoration: none;
   color: var(--pure);
-  font-size: 20px;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+}
+
+footer.footer ul li a:hover {
+  color: var(--primary);
 }
 
 /* ==========================================================================
@@ -862,18 +889,36 @@ Responsive Section
     overflow: hidden;
   }
 
-  /* Style for the "Home" link in the footer */
   .footer ul li a {
-    color: var(--pure); /* Set the default color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s; /* Add a transition effect for a smooth change */
+    color: var(--pure);
+    text-decoration: none;
+    transition: color 0.3s;
     text-transform: uppercase;
   }
 
-  /* Hover state for the "Home" link */
   .footer ul li a:hover {
-    color: var(--primary); /* Change the color when the link is hovered */
+    color: var(--primary);
   }
+
+  .myblog .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    grid-column-gap: 0.2rem;
+  }
+
+  .myblog .blog-image-wrapper img {
+    display: inline-flex;
+    background-color: rgb(209, 209, 209);
+    border-radius: 50px 50px 0 0;
+}
+
+.myblog .wrappercard-wrapper-content p {
+    padding: 0 4rem 0 4rem;
+}
+
+.myblog .card-wrapper {
+    grid-row-gap: 2rem;
 }
 
 /* Mobile devices */
