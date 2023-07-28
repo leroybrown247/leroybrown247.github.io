@@ -913,8 +913,8 @@ Responsive Section
     border-radius: 50px 50px 0 0;
 }
 
-.myblog .wrappercard-wrapper-content p {
-    padding: 0 4rem 0 4rem;
+.myblog .wrappercard-wrapper-content {
+    padding: 4rem;
 }
 
 .myblog .card-wrapper {
@@ -1017,7 +1017,32 @@ Responsive Section
     font-size: 2rem;
   }
 
+  .contact-card-wrapper {
+    display: flex;
+  }
+
+  .card-wrapper img {
+    height: 22rem;
+  }
+
+  .contact .contact-card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 1rem;
+  }
+  
+  .myblog .wrappercard-wrapper-content {
+    padding: 1rem;
+  }
+  
   .footer .footer-text {
     font-size: 1.1rem;
   }
+
+  .myblog p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+}
 }
