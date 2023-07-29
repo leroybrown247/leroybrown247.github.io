@@ -1,0 +1,86 @@
+/* ==========================================================================
+	 About Section
+	 ========================================================================== */
+
+     /* .about {
+        padding: 6rem 6rem;
+      } */
+      
+      .about .social a img {
+        margin-right: 10px;
+        margin-top: 1rem;
+      }
+      
+      .about .social p {
+        margin-right: 10px;
+      }
+      
+      .about .right .social a img {
+        margin-right: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      
+      .about .left img {
+        height: 500px;
+        border-radius: 1000px;
+      }
+      
+      /*About image animation starts*/
+      
+      .about .left img {
+        animation: morph 8s ease-in-out infinite;
+        background-image: url(../images/Icon-Image.svg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid var(--primary);
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        height: 25rem;
+        position: relative;
+        transition: all 1s ease-in-out;
+        width: 25rem;
+      }
+      
+      @keyframes morph {
+        0% {
+          border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        }
+        50% {
+          border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+        }
+        100% {
+          border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        }
+      }
+      
+      /*About image animation ends*/
+      
+      .about .social {
+        display: flex;
+        align-items: center;
+      }
+
+      .about .social .flex {
+        display: flex;
+        align-items: center;
+      }
+      
+      .about .right h1 {
+        font-size: 50px;
+      }
+      
+      .about .right h1 span {
+        color: var(--primary);
+      }
+      
+      .about .right h3 {
+        font-size: 20px;
+        line-height: 3;
+      }
+      
+      .about .right p {
+        font-size: 20px;
+      }
+
+      
