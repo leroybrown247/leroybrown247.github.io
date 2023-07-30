@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/about.css">
-
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/blog.css">
 </head>
+
 <body>
 
 <!--Nav section starts-->   
@@ -36,7 +40,6 @@
         </div>
         </div>
 
-        
         <header id="home">
             <div class="container">
                 <nav id="main-nav" class="flex items-center space-between">
@@ -52,6 +55,7 @@
                         </div>
                     </div>
                 </nav>
+                
     <!--Nav section ends-->                
                     
     <!--Hero section starts-->
@@ -289,13 +293,10 @@
 <!-- Scroll to JS starts -->
 
 <script>
-    // Function to scroll to the top of the page
     function scrollToTop() {
-      // Scroll to the top with smooth behavior
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   
-    // Show/hide the "scroll to top" button based on user's scroll position
     window.onscroll = function() {
       const scrollTopBtn = document.getElementById('scrollTopBtn');
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {

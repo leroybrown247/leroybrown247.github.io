@@ -25,7 +25,7 @@ body {
 }
 
 /* ==========================================================================
-	 Header
+	 Header and Nav Section
 	 ========================================================================== */
 
 * {
@@ -36,10 +36,6 @@ body {
 header {
   background: var(--dark);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
-}
-
-.hero-heading {
-  padding-top: 2rem;
 }
 
 .container {
@@ -69,6 +65,9 @@ header nav .branding {
   margin-right: 23rem;
 }
 
+/* ==========================================================================
+Scroll Bar Section
+========================================================================== */
 
 * {
   scrollbar-color: var(--primary), var(--pure);
@@ -87,321 +86,11 @@ header nav .branding {
 ::-webkit-scrollbar-track {
   background-color: var(--pure);
   border-radius: 20px;
-} */
-
-
-/* ==========================================================================
-Blog Section
-========================================================================== */
-
-.myblog {
-  padding-bottom: 100px;
-}
-
-.myblog .section-heading {
-  color: var(--dark);
-  padding-bottom: 3rem;
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 50px;
-}
-
-.myblog p {
-  color: var(--dark);
-  text-align: center;
-  margin-bottom: 4rem;
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-}
-
-.myblog .section-heading span {
-  color: var(--primary);
-}
-
-.myblog .card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  grid-column-gap: 0.2rem;
-}
-
-.myblog .card-wrapper .card {
-  border-radius: 50px;
-}
-
-.myblog .card-wrapper .card-content {
-  background: var(--pure);
-}
-
-.myblog .card-wrapper .card-content {
-  padding: 2rem;
-}
-
-.myblog .blog-image-wrapper img {
-  display: flex;
-  background-color: rgb(209, 209, 209);
-  border-radius: 50px 50px 0 0;
-}
-
-.myblog .wrappercard-wrapper-content {
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-radius: 0 0 50px 50px;
-}
-
-.myblog .wrappercard-wrapper-content h1 {
-  margin-bottom: 2rem;
-}
-
-.myblog .wrappercard-wrapper-content p {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  padding: 2rem;
-}
-
-.myblog .wrappercard-wrapper-content span {
-  color: var(--dark);
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-}
-
-.myblog .wrappercard-wrapper-content a {
-  color: var(--dark);
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-  text-decoration: none;
-}
-
-.myblog .wrappercard-wrapper-content a:hover {
-  color: var(--primary);
-  text-decoration: underline;
-}
-
-/* ==========================================================================
-Contact Section
-========================================================================== */
-
-.contact {
-  background-color: var(--dark);
-  color: var(--pure);
-}
-
-.contact .section-heading {
-  color: var(--pure);
-  padding-bottom: 3rem;
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 4rem;
-  font-weight: 100;
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-}
-
-.contact h2 {
-  font-weight: 100;
-}
-
-.contact-link {
-  color: var(--pure);
-  text-decoration: none;
-  transition: color 0.3 ease;
-}
-
-.contact-link:hover {
-  color: var(--primary);
-}
-
-.contact h4 {
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-  font-weight: 100;
-  margin-top: 0.5rem;
-}
-
-.contact .container {
-  padding-bottom: 100px;
-}
-
-.contact .section-heading span {
-  color: var(--primary);
-}
-
-.contact .contact-card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.contact .contact-card-wrapper .card img {
-  height: 50px;
-  margin-bottom: 1rem;
-}
-
-.contact .contact-card-wrapper .card {
-  text-align: center;
-}
-
-.contact .input-wrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
-  margin-bottom: 1rem;
-}
-
-.contact .input-wrap input {
-  margin-top: 3rem;
-}
-
-.contact .input-wrap-2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact input {
-  padding: 1rem;
-}
-
-.contact .input-wrap-2 input {
-  margin-bottom: 1rem;
-}
-
-.contact .input-wrap-2 textarea {
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
-
-.contact .btn-wrapper {
-  text-align: center;
-}
-
-/* ==========================================================================
-Footer Section
-========================================================================== */
-
-footer {
-  background: var(--dark);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-footer img {
-  margin-top: 0.5rem;
-}
-
-.footer .social {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
-}
-
-.footer .social a {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-footer .footer-text {
-  color: var(--pure);
-  padding-bottom: 2rem;
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-}
-
-footer.footer ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-footer.footer ul li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-footer.footer ul li a {
-  text-decoration: none;
-  color: var(--pure);
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-  text-transform: uppercase;
-}
-
-footer.footer ul li a:hover {
-  color: var(--primary);
-}
-
-/* ==========================================================================
-Content Section
-========================================================================== */
-
-/*Content Section*/
-
-.content {
-  padding: 4rem 0;
-}
-
-.content .container {
-  display: flex;
-  align-items: flex-start; /* Align items from the top */
-  margin-bottom: 4rem;
-}
-
-.content .left img {
-  background-position: 100%;
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  position: relative;
-  width: 25rem;
-}
-
-.content h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.content h1 span {
-  color: var(--primary);
-}
-
-.content h3 {
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.content .paragraph {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  margin-bottom: 1.2rem;
-}
-
-.content .list {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  margin-bottom: 1.2rem;
-}
-
-.content .social {
-  align-items: center;
-}
-
-.content .social p {
-  font-size: 1.4rem;
-  margin-right: 10px;
-}
-
-.content .social img {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
 }
 
 /* ==========================================================================
 Scroll To The Top Section
 ========================================================================== */
-
-/* Styling for the scroll to top button */
 
 #scrollTopBtn {
   position: fixed;
@@ -417,8 +106,6 @@ Scroll To The Top Section
 /* ==========================================================================
 Responsive Section
 ========================================================================== */
-
-/* Hamburger navigation begins */
 
 .site-main-wrapper {
   position: relative;
@@ -581,15 +268,15 @@ Responsive Section
   .about-social {
     justify-content: center;
   }
-  
+
   .about-social p {
-    margin-right: 10px; /* Add some spacing between the "Find Me" text and social icons */
+    margin-right: 10px;
   }
 
   .about-social a {
-    margin: 10px 5px; /* Add spacing between social icons */
+    margin: 10px 5px;
   }
-  
+
   .content .container {
     display: flex;
     flex-direction: column;
@@ -642,7 +329,7 @@ Responsive Section
   }
 
   .myblog .card-wrapper {
-     grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .myblog .card-wrapper .blog-image-wrapper {
@@ -663,7 +350,6 @@ Responsive Section
   .myblog .card-wrapper {
     grid-row-gap: 2rem;
   }
-  
 
   /* Mobile devices */
 
@@ -706,13 +392,13 @@ Responsive Section
       align-items: center;
       margin-right: 10px;
     }
-    
+
     .about .right p {
       display: flex;
       font-size: 1.1rem;
     }
 
-     .card-wrapper img {
+    .card-wrapper img {
       height: 260px;
       width: 260x;
     }

@@ -1,0 +1,60 @@
+.content {
+  padding: 4rem 0;
+}
+
+.content .container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+
+.content .left img {
+  background-position: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  position: relative;
+  width: 25rem;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.content h1 span {
+  color: var(--primary);
+}
+
+.content h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.content .paragraph {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 1.2rem;
+}
+
+.content .list {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 1.2rem;
+}
+
+.content .social {
+  align-items: center;
+}
+
+.content .social p {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+
+.content .social img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

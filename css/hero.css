@@ -1,114 +1,104 @@
-/* ==========================================================================
-	 Hero Section
-	 ========================================================================== */
+.hero {
+  padding-bottom: 20rem;
+  padding-top: 10rem;
+}
 
-     .hero {
-        padding-bottom: 20rem;
-        padding-top: 10rem;
-      }
-      
-      /*Hero image animation starts*/
+.hero .left img {
+  animation: morph 8s ease-in-out infinite;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid var(--primary);
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  height: 25rem;
+  position: relative;
+  transition: all 1s ease-in-out;
+  width: 25rem;
+}
 
- 
-      .hero .left img {
-        animation: morph 8s ease-in-out infinite;
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border: 3px solid var(--primary);
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        height: 25rem;
-        position: relative;
-        transition: all 1s ease-in-out;
-        width: 25rem;
-      }
-      
-      @keyframes morph {
-        0% {
-          border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        }
-        50% {
-          border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-        }
-        100% {
-          border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        }
-      }
-      
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      
-      body {
-        background-color: var(--pure);
-        font-family: Poppins, sans-serif;
-        position: relative;
-      }
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
 
-      /*Hero image animation ends*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  
-  .hero .right {
-    color: var(--pure);
-    margin-top: -5rem;
-  }
-  
-  .hero .right .stack {
-    display: flex;
-    align-items: center;
-  }
-  
-  .hero .right .stack a {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero .right .stack a img {
-    height: 30px;
-  }
-  
-  .stack-two.flex {
-    display: flex;
-    align-items: center;
-  }
-  
-  .stack-two.flex p {
-    font-size: 1.4rem;
-    margin-right: 10px;
-  }
-  
-  .hero .right .stack-two a img {
-    margin-right: 10px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero .right h6 {
-    font-size: 1.6rem;
-  }
-  
-  .hero .right h1 {
-    font-size: 4rem;
-    font-weight: 100;
-    line-height: 1.2;
-    margin-bottom: 0.5rem;
-  }
-  
-  .hero .right h1 span {
-    color: var(--primary);
-  }
-  
-  .hero .right p {
-    font-size: 1.4rem;
-    line-height: 1.4;
-  }
-  
-    .video-link {
-      color: var(--primary);
-      text-decoration: underline;
-    }
+body {
+  background-color: var(--pure);
+  font-family: Poppins, sans-serif;
+  position: relative;
+}
+
+.hero .right {
+  color: var(--pure);
+  margin-top: -5rem;
+}
+
+.hero .right .stack {
+  display: flex;
+  align-items: center;
+}
+
+.hero .right .stack a {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero .right .stack a img {
+  height: 30px;
+}
+
+.stack-two.flex {
+  display: flex;
+  align-items: center;
+}
+
+.stack-two.flex p {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+
+.hero .right .stack-two a img {
+  margin-right: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero .right h6 {
+  font-size: 1.6rem;
+}
+
+.hero .right h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.hero .right h1 span {
+  color: var(--primary);
+}
+
+.hero .right p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.video-link {
+  color: var(--primary);
+  text-decoration: underline;
+}

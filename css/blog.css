@@ -1,0 +1,82 @@
+.myblog {
+    padding-bottom: 100px;
+  }
+  
+  .myblog .section-heading {
+    color: var(--dark);
+    padding-bottom: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 50px;
+  }
+  
+  .myblog p {
+    color: var(--dark);
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+  }
+  
+  .myblog .section-heading span {
+    color: var(--primary);
+  }
+  
+  .myblog .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-column-gap: 1rem;
+  }
+  
+  .myblog .card-wrapper .card {
+    border-radius: 50px;
+  }
+  
+  .myblog .card-wrapper .card-content {
+    background: var(--pure);
+  }
+  
+  .myblog .card-wrapper .card-content {
+    padding: 2rem;
+  }
+  
+  .myblog .blog-image-wrapper img {
+    display: flex;
+    border-radius: 50px 50px 0 0;
+  }
+  
+  .myblog .wrappercard-wrapper-content {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0 0 50px 50px;
+  }
+  
+  .myblog .wrappercard-wrapper-content h1 {
+    margin-bottom: 2rem;
+  }
+  
+  .myblog .wrappercard-wrapper-content p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+  
+  .myblog .wrappercard-wrapper-content span {
+    color: var(--dark);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+  }
+  
+  .myblog .wrappercard-wrapper-content a {
+    color: var(--dark);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    text-decoration: none;
+  }
+  
+  .myblog .wrappercard-wrapper-content a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+  }
