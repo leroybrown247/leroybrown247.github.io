@@ -8,7 +8,8 @@
       }
       
       /*Hero image animation starts*/
-      
+
+ 
       .hero .left img {
         animation: morph 8s ease-in-out infinite;
         background-position: 50%;
@@ -48,10 +49,6 @@
 
       /*Hero image animation ends*/
 
-.hero .left img {
-    width: 400px;
-    border-radius: 500px;
-  }
   
   .hero .right {
     color: var(--pure);
