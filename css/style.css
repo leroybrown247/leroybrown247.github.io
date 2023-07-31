@@ -221,6 +221,8 @@ Responsive Section
     align-items: center;
   }
 
+  /* ------------------------------- */
+
   .btn-wrapper {
     display: flex;
     justify-content: center;
@@ -230,6 +232,8 @@ Responsive Section
     display: block;
     margin: 0 auto;
   }
+
+  /* ------------------------------- */
 
   .about {
     padding: 3rem;
@@ -277,6 +281,8 @@ Responsive Section
     margin: 10px 5px;
   }
 
+  /* ------------------------------- */
+
   .content .container {
     display: flex;
     flex-direction: column;
@@ -317,6 +323,8 @@ Responsive Section
     overflow: hidden;
   }
 
+  /* ------------------------------- */
+
   .footer ul li a {
     color: var(--pure);
     text-decoration: none;
@@ -328,27 +336,10 @@ Responsive Section
     color: var(--primary);
   }
 
+  /* ------------------------------- */
+
   .myblog .card-wrapper {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .myblog .card-wrapper .blog-image-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .myblog .blog-image-wrapper img {
-    border-radius: 50px 50px 0 0;
-  }
-
-  .myblog .wrappercard-wrapper-content {
-    padding: 4rem;
-  }
-
-  .myblog .card-wrapper {
-    grid-row-gap: 2rem;
   }
 
   /* Mobile devices */
@@ -393,15 +384,21 @@ Responsive Section
       margin-right: 10px;
     }
 
+    /* ------------------------------- */
+
     .about .right p {
       display: flex;
       font-size: 1.1rem;
     }
 
+    /* ------------------------------- */
+
     .card-wrapper img {
       height: 260px;
       width: 260x;
     }
+
+    /* ------------------------------- */
 
     .content h1 {
       font-size: 2rem;
@@ -440,19 +437,19 @@ Responsive Section
       margin: 1rem;
     }
 
-    .myblog .wrappercard-wrapper-content {
-      padding: 1rem;
-    }
+    /* ------------------------------- */
 
     .footer .footer-text {
       font-size: 1.1rem;
     }
 
-    .myblog p {
-      font-size: 1.1rem;
-      line-height: 1.6rem;
-      margin-bottom: 1rem;
-    }
+    /* ------------------------------- */
+
+.myblog .card-wrapper {
+  flex-wrap: wrap;
+}
+
+    /* ------------------------------- */
 
     .hero .left img {
       width: 5rem;

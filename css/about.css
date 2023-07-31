@@ -68,10 +68,11 @@
 }
 
 .about .right h3 {
-  font-size: 20px;
+  font-size: 1.4rem;
   line-height: 3;
 }
 
 .about .right p {
-  font-size: 20px;
+  font-size: 1.4rem;
+  line-height: 1.4;
 }
