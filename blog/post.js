@@ -11,7 +11,3 @@ hamburger.addEventListener("click", function () {
 times.addEventListener("click", function () {
   mobileNav.classList.remove("open");
 });
-
-click1.addEventListener("click", function () {
-  mobileNav.classList.remove("open");
-});

@@ -32,6 +32,7 @@
 }
 
 .myblog .card {
+  background-color: var(--pure);
   flex-basis: 25rem; 
   display: flex;
   flex-direction: column;

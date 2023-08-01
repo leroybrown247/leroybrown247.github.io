@@ -5,10 +5,11 @@
 	 ========================================================================== */
 
 :root {
-  --primary: #ffb848;
+  --primary: #9482ff;
   --pure: #ffffff;
-  --dark: #493343;
-  --paragraph: #908a8e;
+  --dark: #1E1A33;
+  --paragraph: #6a6680;
+  --background: #f5f5f7;
 }
 
 html {
@@ -518,9 +519,9 @@ Responsive Section
 
     /* ------------------------------- */
 
-.myblog .card-wrapper {
-  flex-wrap: wrap;
-}
+    .myblog .card-wrapper {
+      flex-wrap: wrap;
+    }
 
     /* ------------------------------- */
 

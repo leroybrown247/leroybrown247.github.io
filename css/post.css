@@ -1,6 +1,6 @@
 .post {
     padding: 1rem 0;
-    background-color: var(--pure);
+    background-color: var(--background);
   }
   
   .post .container {
