@@ -30,6 +30,14 @@ body p {
   color: var(--paragraph);
 }
 
+body h2 {
+  color: var(--paragraph);
+}
+
+body h3 {
+  color: var(--paragraph);
+}
+
 /* ==========================================================================
 	 Header and Nav Section
 	 ========================================================================== */
@@ -63,6 +71,7 @@ header nav .left a {
 
 header nav .left a:hover {
   color: var(--primary);
+  text-decoration: underline;
 }
 
 header nav {
@@ -403,6 +412,11 @@ Responsive Section
 
     .hero .left {
       margin-top: -6rem;
+    }
+
+    .hero .left img {
+      height: 25rem;
+      width: 25rem;
     }
 
     .hero .right {

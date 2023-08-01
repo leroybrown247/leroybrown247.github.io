@@ -8,6 +8,7 @@ footer {
 
 footer img {
   margin-top: 0.5rem;
+  height: 2rem;
 }
 
 .footer .social {
@@ -44,8 +45,11 @@ footer.footer ul li a {
   font-size: 1.4rem;
   line-height: 1.4rem;
   text-transform: uppercase;
+  transition: all 0.3s ease;
+
 }
 
 footer.footer ul li a:hover {
   color: var(--primary);
+  text-decoration: underline;
 }

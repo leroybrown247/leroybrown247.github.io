@@ -1,6 +1,5 @@
 .myblog {
-  height: 100vh;
-
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,12 +16,20 @@
   margin-bottom: 2rem;
 }
 
+.myblog h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
 .myblog p {
   text-align: center;
   font-size: 1.2rem;
   line-height: 1.4;
   margin-bottom: 4rem;
 }
+
 
 .myblog .card-wrapper {
   display: flex;
@@ -51,6 +58,7 @@
 
 .myblog .wrappercard-wrapper-content {
   flex: 1;
+  margin: 1rem;
 }
 
 .myblog .wrappercard-wrapper-content h1 {

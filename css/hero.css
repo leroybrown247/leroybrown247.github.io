@@ -10,10 +10,10 @@
   background-size: cover;
   border: 3px solid var(--primary);
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 25rem;
+  height: 30rem;
   position: relative;
   transition: all 1s ease-in-out;
-  width: 25rem;
+  width: 30rem;
 }
 
 @keyframes morph {
@@ -102,5 +102,12 @@ body {
 
 .video-link {
   color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+}
+
+.video-link:hover {
   text-decoration: underline;
+
 }

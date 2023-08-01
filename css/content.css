@@ -28,6 +28,8 @@
   object-position: center; 
   border-radius: 1.7rem;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  color: var(--paragraph);
+
 }
 
 .content .right {
@@ -44,6 +46,12 @@
 
 .content h1 span {
   color: var(--primary);
+}
+
+.content h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2rem;
 }
 
 .content h3 {
@@ -98,4 +106,5 @@
 
 .content .flex-2 a:hover {
   color: var(--primary);
+  transition: all 0.3s ease;
 }
