@@ -1,4 +1,6 @@
 .myblog {
+  height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,8 +19,8 @@
 
 .myblog p {
   text-align: center;
-  font-size: 1.4rem;
-  line-height: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
   margin-bottom: 4rem;
 }
 
@@ -33,18 +35,17 @@
   flex-basis: 25rem; 
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.5rem;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 1.7rem;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .myblog .blog-image-wrapper img {
   width: 100%;
-  /* height: auto; */
-  border-radius: 50px 50px 0 0;
+  border-radius: 1.7rem 1.7rem 0 0;
 }
 
 .myblog .wrappercard-wrapper-content {
@@ -62,24 +63,23 @@
 }
 
 .myblog .wrappercard-wrapper-content span {
-  color: var(--primary);
-  font-size: 1.2rem;
+  color: var(--dark);
+  font-size: 1rem;
 }
 
 .myblog .wrappercard-wrapper-content p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.4;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
 .myblog .wrappercard-wrapper-content a {
-  color: var(--primary);
-  font-size: 1.2rem;
-  font-weight: 600;
-  text-decoration: none;
+  color: var(--dark);
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .myblog .wrappercard-wrapper-content a:hover {
-  text-decoration: underline;
+color: var(--primary);
 }

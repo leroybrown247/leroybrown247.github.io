@@ -1,5 +1,12 @@
 .about {
-  padding: 6rem 6rem;
+  margin-top: 10rem;
+  height: 60vh;
+  align-items: center;
+}
+
+.about-social img {
+  width: 30px;
+  height: 30px;
 }
 
 .about .social a img {
@@ -49,10 +56,12 @@
 
 .about-social {
   align-items: center;
+
 }
 
 .about-social p {
   margin-right: 10px;
+  color: var(--dark);
 }
 
 .about-social a {
@@ -60,7 +69,7 @@
 }
 
 .about .right h1 {
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 
 .about .right h1 span {
@@ -73,6 +82,6 @@
 }
 
 .about .right p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.4;
 }

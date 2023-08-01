@@ -8,6 +8,7 @@
   --primary: #ffb848;
   --pure: #ffffff;
   --dark: #493343;
+  --paragraph: #908a8e;
 }
 
 html {
@@ -24,6 +25,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+body p {
+  color: var(--paragraph);
+}
+
 /* ==========================================================================
 	 Header and Nav Section
 	 ========================================================================== */
@@ -33,7 +38,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
 header {
+  height: 100vh;
   background: var(--dark);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
@@ -325,6 +332,48 @@ Responsive Section
 
   /* ------------------------------- */
 
+  .post .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .post .left img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .post h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .post h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .post .paragraph {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .post .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .post .list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  /* ------------------------------- */
+
   .footer ul li a {
     color: var(--pure);
     text-decoration: none;
@@ -419,6 +468,30 @@ Responsive Section
     .content .list {
       font-size: 1.1rem;
     }
+
+    /* ------------------------------- */
+
+    .post h1 {
+      font-size: 2rem;
+    }
+
+    .post h3 {
+      font-size: 1.6rem;
+    }
+
+    .post .paragraph {
+      font-size: 1.1rem;
+    }
+
+    .post .social p {
+      font-size: 1.1rem;
+    }
+
+    .post .list {
+      font-size: 1.1rem;
+    }
+
+    /* ------------------------------- */
 
     .contact .section-heading {
       font-size: 2rem;

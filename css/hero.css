@@ -1,6 +1,6 @@
 .hero {
-  padding-bottom: 20rem;
   padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .hero .left img {
@@ -68,6 +68,7 @@ body {
 }
 
 .stack-two.flex p {
+  color: var(--pure);
   font-size: 1.4rem;
   margin-right: 10px;
 }
@@ -94,7 +95,8 @@ body {
 }
 
 .hero .right p {
-  font-size: 1.4rem;
+  color: var(--pure);
+  font-size: 1.2rem;
   line-height: 1.4;
 }
 
