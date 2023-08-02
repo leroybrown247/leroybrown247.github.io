@@ -307,6 +307,11 @@ Responsive Section
     justify-content: center;
   }
 
+  .content .left {
+    max-height: 25rem;
+    margin-top: 2rem;
+  }
+
   .content .left img {
     display: flex;
     justify-content: center;
