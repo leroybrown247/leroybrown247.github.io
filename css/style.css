@@ -26,7 +26,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-body p {
+body h3 {
   color: var(--paragraph);
 }
 
@@ -34,7 +34,7 @@ body h2 {
   color: var(--paragraph);
 }
 
-body h3 {
+body p {
   color: var(--paragraph);
 }
 

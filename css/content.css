@@ -3,6 +3,21 @@
   background-color: var(--dark);
 }
 
+.section-heading {
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--pure);
+}
+
+.section-paragraph {
+  text-align: center;
+  color: var(--pure);
+  font-size: 1.2rem;
+  line-height: 1.4;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
 .content .container {
   display: flex;
   background-color: var(--pure);
@@ -16,6 +31,7 @@
   position: relative;
   width: 25rem;
   height: 25rem;
+  margin-left: 1rem;
   overflow: hidden;
   display: flex;
   align-items: flex-start;
