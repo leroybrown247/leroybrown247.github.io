@@ -7,6 +7,12 @@
 .about-social img {
   width: 30px;
   height: 30px;
+  transition: all 0.3s ease;
+
+}
+
+.about-social img:hover {
+  transform: scale(1.1);
 }
 
 .about .social a img {

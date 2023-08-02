@@ -30,17 +30,16 @@
   margin-bottom: 4rem;
 }
 
-
 .myblog .card-wrapper {
   display: flex;
   margin-bottom: 6rem;
   justify-content: center;
-  gap: 2rem; 
+  gap: 2rem;
 }
 
 .myblog .card {
   background-color: var(--pure);
-  flex-basis: 25rem; 
+  flex-basis: 25rem;
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
@@ -48,7 +47,7 @@
   align-items: center;
   text-align: center;
   border-radius: 1.7rem;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
 
 .myblog .blog-image-wrapper img {
@@ -68,7 +67,6 @@
 
 .myblog .section-heading span {
   color: var(--primary);
-
 }
 
 .myblog .wrappercard-wrapper-content span {
@@ -87,8 +85,16 @@
   color: var(--dark);
   font-size: 1rem;
   font-weight: 400;
+  transition: all 0.3s ease;
 }
 
 .myblog .wrappercard-wrapper-content a:hover {
-color: var(--primary);
+  color: var(--primary);
+}
+
+.myblog .btn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 4rem;
 }

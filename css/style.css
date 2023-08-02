@@ -62,7 +62,7 @@ header {
 
 header nav .left a {
   color: var(--pure);
-  margin-right: 2rem;
+  margin-right: 1rem;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-decoration: none;

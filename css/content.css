@@ -87,6 +87,11 @@
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.content .social img:hover {
+  transform: scale(1.1);
 }
 
 .content .flex-2 {

@@ -5,6 +5,8 @@ let click = document.querySelector(".click");
 let click1 = document.querySelector(".click-1");
 let click2 = document.querySelector(".click-2");
 let click3 = document.querySelector(".click-3");
+let click4 = document.querySelector(".click-4");
+
 
 hamburger.addEventListener("click", function () {
   mobileNav.classList.add("open");
@@ -27,5 +29,9 @@ click2.addEventListener("click", function () {
 });
 
 click3.addEventListener("click", function () {
+  mobileNav.classList.remove("open");
+});
+
+click4.addEventListener("click", function () {
   mobileNav.classList.remove("open");
 });

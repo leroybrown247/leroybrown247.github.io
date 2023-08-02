@@ -9,6 +9,11 @@ footer {
 footer img {
   margin-top: 0.5rem;
   height: 2rem;
+  transition: all 0.3s ease;
+}
+
+footer img:hover {
+  transform: scale(1.1);
 }
 
 .footer .social {
