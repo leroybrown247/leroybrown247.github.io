@@ -35,26 +35,11 @@
     padding: 2rem;
   }
   
-  .post h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-  
-  .post h1 span {
-    color: var(--primary);
-  }
-  
-  .post h3 {
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-  }
-  
   .post .paragraph {
     font-size: 1.2rem;
     line-height: 1.4;
-    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
   
   .post .list {

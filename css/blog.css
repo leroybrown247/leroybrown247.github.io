@@ -10,10 +10,8 @@
   max-width: 1152px;
 }
 
-.myblog .section-heading {
+.myblog h3 {
   text-align: center;
-  font-size: 3rem;
-  margin-bottom: 2rem;
 }
 
 .myblog h2 {
@@ -65,20 +63,9 @@
   margin-bottom: 1rem;
 }
 
-.myblog .section-heading span {
-  color: var(--primary);
-}
-
 .myblog .wrappercard-wrapper-content span {
   color: var(--dark);
   font-size: 1rem;
-}
-
-.myblog .wrappercard-wrapper-content p {
-  font-size: 1.2rem;
-  line-height: 1.4;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
 }
 
 .myblog .wrappercard-wrapper-content a {

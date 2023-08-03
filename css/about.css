@@ -74,14 +74,6 @@
   margin: 10px 5px;
 }
 
-.about .right h1 {
-  font-size: 2.5rem;
-}
-
-.about .right h1 span {
-  color: var(--primary);
-}
-
 .about .right h3 {
   font-size: 1.4rem;
   line-height: 3;

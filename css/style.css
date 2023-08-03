@@ -26,15 +26,44 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-body h3 {
+body h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
   color: var(--paragraph);
+}
+
+body h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--dark);
 }
 
 body h2 {
-  color: var(--paragraph);
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+}
+
+body h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+span {
+  color: var(--primary);
 }
 
 body p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   color: var(--paragraph);
 }
 

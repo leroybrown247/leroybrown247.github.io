@@ -8,9 +8,6 @@
   padding-bottom: 3rem;
   text-align: center;
   padding-top: 2rem;
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 1.2;
   margin-bottom: 0.5rem;
 }
 
@@ -31,11 +28,16 @@
   color: var(--primary);
 }
 
+.contact h3 {
+  color: var(--pure);
+}
+
 .contact h4 {
   font-size: 1.4rem;
   line-height: 1.4rem;
   font-weight: 100;
   margin-top: 0.5rem;
+  color: var(--pure);
   transition: all 0.3s ease;
 }
 
