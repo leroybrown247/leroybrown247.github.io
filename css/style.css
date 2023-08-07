@@ -7,7 +7,7 @@
 :root {
   --primary: #9482ff;
   --pure: #ffffff;
-  --dark: #1E1A33;
+  --dark: #1e1a33;
   --paragraph: #6a6680;
   --background: #f5f5f7;
 }
@@ -238,6 +238,11 @@ Responsive Section
     display: none;
   }
 
+  header {
+    height: 80%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+  }
+
   .hero {
     flex-direction: column;
     overflow: hidden;
@@ -245,6 +250,7 @@ Responsive Section
   }
 
   .hero .left img {
+    margin-top: 4rem;
     width: 15rem;
     height: 15rem;
   }
@@ -303,6 +309,17 @@ Responsive Section
     text-align: center;
   }
 
+  .about h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
   .about .right h3 {
     text-align: center;
   }
@@ -351,7 +368,17 @@ Responsive Section
     justify-content: center;
   }
 
+  .content h2 {
+    display: flex;
+    justify-content: center;
+  }
+
   .content h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content h4 {
     display: flex;
     justify-content: center;
   }
@@ -397,6 +424,12 @@ Responsive Section
     display: flex;
     justify-content: center;
   }
+  
+  .post h4 {
+    display: flex;
+    justify-content: center;
+  }
+  
 
   .post .paragraph {
     display: flex;
@@ -438,6 +471,10 @@ Responsive Section
   /* Mobile devices */
 
   @media (max-width: 567px) {
+    header {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 98%, 0 100%);
+    }
+
     .hero {
       flex-direction: column;
       overflow: hidden;
@@ -449,8 +486,8 @@ Responsive Section
     }
 
     .hero .left img {
-      height: 25rem;
-      width: 25rem;
+      height: 20rem;
+      width: 20rem;
     }
 
     .hero .right {
