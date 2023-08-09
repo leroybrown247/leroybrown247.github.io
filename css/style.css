@@ -450,6 +450,12 @@ Responsive Section
 
   /* ------------------------------- */
 
+  .contact .contact-card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* ------------------------------- */
+
   .footer ul li a {
     color: var(--pure);
     text-decoration: none;
@@ -595,10 +601,9 @@ Responsive Section
 
     .contact .contact-card-wrapper {
       grid-template-columns: repeat(1, 1fr);
-      margin: 1rem;
     }
 
-    /* ------------------------------- */
+     /* ------------------------------- */
 
     .footer .footer-text {
       font-size: 1.1rem;
@@ -609,6 +614,5 @@ Responsive Section
     .myblog .card-wrapper {
       flex-wrap: wrap;
     }
-
   }
 }
