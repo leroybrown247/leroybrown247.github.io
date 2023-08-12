@@ -45,6 +45,7 @@ footer.footer ul li {
 }
 
 footer.footer ul li a {
+  margin-top: 2rem;
   text-decoration: none;
   color: var(--pure);
   font-size: 1.4rem;
