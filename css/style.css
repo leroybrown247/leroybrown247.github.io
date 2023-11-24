@@ -283,6 +283,7 @@ Responsive Section
   .btn-secondary {
     display: block;
     margin: 0 auto;
+    text-decoration: none;
   }
 
   /* ------------------------------- */
@@ -603,7 +604,7 @@ Responsive Section
       grid-template-columns: repeat(1, 1fr);
     }
 
-     /* ------------------------------- */
+    /* ------------------------------- */
 
     .footer .footer-text {
       font-size: 1.1rem;
