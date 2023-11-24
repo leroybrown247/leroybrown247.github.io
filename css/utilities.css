@@ -1,53 +1,53 @@
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .btn {
-    padding: 0.8rem 3rem;
-    font-weight: 400;
-    font-size: 1rem;
-    border: 2px solid transparent;
-    cursor: pointer;
-    text-transform: uppercase;
+  padding: 0.8rem 3rem;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .btn-primary {
-    background: var(--primary);
-    transition: all 0.3s ease;
+  background: var(--primary);
+  transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
-    background: transparent;
-    border-color: var(--primary);
-    color: var(--primary);
+  background: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .btn-secondary {
-    background: transparent;
-    color: var(--primary);
-    border-color: var(--primary);
-    transition: all 0.3s ease;
-    margin-top: 1rem;
-
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  text-decoration: none;
 }
 
 .btn-secondary:hover {
-    background: var(--primary);
-    color: var(--dark);
+  background: var(--primary);
+  color: var(--dark);
 }
 
 .flex-1 {
-    flex: 1;
+  flex: 1;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
