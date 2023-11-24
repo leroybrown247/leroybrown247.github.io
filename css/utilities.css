@@ -17,6 +17,7 @@
   border: 2px solid transparent;
   cursor: pointer;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .btn-primary {
