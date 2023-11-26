@@ -20,7 +20,9 @@
 
 .content .container {
   display: flex;
+  align-items: flex-start;
   background-color: var(--pure);
+  padding-top: 2rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
   border-radius: 1.7rem;
@@ -78,13 +80,43 @@
 
 .content .left .project-three:hover {
   cursor: pointer;
-  transform: translateY(-55%);
+  transform: translateY(-10%);
+}
+
+.content .left .project-four {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  border-radius: 1.7rem;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 8s ease-in-out 0s;
+}
+
+.content .left .project-four:hover {
+  cursor: pointer;
+  transform: translateY(-70%);
+}
+
+.content .left .project-five {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  border-radius: 1.7rem;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 8s ease-in-out 0s;
+}
+
+.content .left .project-five:hover {
+  cursor: pointer;
+  transform: translateY(-70%);
 }
 
 .content .right {
   flex: 1;
   align-items: flex-start;
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
 }
 
 .content .paragraph {

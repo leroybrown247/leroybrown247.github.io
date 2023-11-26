@@ -560,6 +560,20 @@ Responsive Section
       font-size: 1.1rem;
     }
 
+    .content .left .img {
+      margin-bottom: 2rm;
+  }
+
+  /* .content .left {
+    max-height: 25rem;
+    margin-top: 2rem;
+  }
+
+  .content .left img {
+    display: flex;
+    justify-content: center;
+  } */
+
     /* ------------------------------- */
 
     .post h1 {
