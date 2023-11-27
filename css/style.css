@@ -515,6 +515,7 @@ Responsive Section
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
+      padding-bottom: 1rem;
     }
 
     .hero .right .stack-two a {
@@ -581,14 +582,17 @@ Responsive Section
 
     .post h3 {
       font-size: 1.6rem;
+      text-align: left;
     }
 
     .post h4 {
       font-size: 1.4rem;
+      text-align: left;
     }
 
     .post .paragraph {
       font-size: 0.8rem;
+      text-align: left;
     }
 
     .post .social p {

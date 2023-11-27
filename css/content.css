@@ -61,12 +61,12 @@
   object-fit: cover;
   border-radius: 1.7rem;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 5s ease-in-out 0s;
+  transition: transform 8s ease-in-out 0s;
 }
 
 .content .left .project-two:hover {
   cursor: pointer;
-  transform: translateY(-55%);
+  transform: translateY(-90%);
 }
 
 .content .left .project-three {
