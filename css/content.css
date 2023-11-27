@@ -1,17 +1,17 @@
 .content {
   padding: 1rem 0;
-  background-color: var(--dark);
+  background-color: var(--backgroundTwo);
 }
 
 .content .section-heading {
   margin-top: 4rem;
   text-align: center;
-  color: var(--pure);
+  color: var(--dark);
 }
 
 .content .section-paragraph {
   text-align: center;
-  color: var(--pure);
+  color: var(--paragraph);
   font-size: 1.2rem;
   line-height: 1.4;
   max-width: 800px;
@@ -21,7 +21,7 @@
 .content .container {
   display: flex;
   align-items: flex-start;
-  background-color: var(--pure);
+  background-color: var(--background);
   padding-top: 2rem;
   margin-top: 4rem;
   margin-bottom: 4rem;

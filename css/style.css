@@ -10,6 +10,7 @@
   --dark: #1e1a33;
   --paragraph: #6a6680;
   --background: #f5f5f7;
+  --backgroundTwo: #f1f1f1;
 }
 
 html {
@@ -85,7 +86,7 @@ header {
 
 .container {
   max-width: 1152px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   margin: 0 auto;
 }
 
@@ -348,9 +349,7 @@ Responsive Section
   /* ------------------------------- */
 
   .content .container {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
@@ -375,19 +374,19 @@ Responsive Section
   }
 
   .content h3 {
-    display: flex;
-    justify-content: center;
+    text-align: left;
+    padding-top: 1rem;
   }
 
   .content h4 {
     display: flex;
-    justify-content: center;
+    text-align: left;
   }
 
   .content .paragraph {
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: left;
   }
 
   .content .social {
@@ -540,6 +539,11 @@ Responsive Section
 
     /* ------------------------------- */
 
+    content .container {
+      align-items: center;
+
+    }
+
     .content h1 {
       font-size: 2rem;
     }
@@ -548,8 +552,13 @@ Responsive Section
       font-size: 1.6rem;
     }
 
+    .content h4 {
+      font-size: 1.4rem;
+      text-align: left;
+    }
+
     .content .paragraph {
-      font-size: 1.1rem;
+      font-size: 0.8rem;
     }
 
     .content .social p {
@@ -561,18 +570,8 @@ Responsive Section
     }
 
     .content .left .img {
-      margin-bottom: 2rm;
-  }
-
-  /* .content .left {
-    max-height: 25rem;
-    margin-top: 2rem;
-  }
-
-  .content .left img {
-    display: flex;
-    justify-content: center;
-  } */
+      margin-bottom: 2rem;
+    }
 
     /* ------------------------------- */
 
@@ -584,8 +583,12 @@ Responsive Section
       font-size: 1.6rem;
     }
 
+    .post h4 {
+      font-size: 1.4rem;
+    }
+
     .post .paragraph {
-      font-size: 1.1rem;
+      font-size: 0.8rem;
     }
 
     .post .social p {
@@ -597,6 +600,8 @@ Responsive Section
     }
 
     /* ------------------------------- */
+
+    
 
     .contact .container {
       padding-bottom: 100px;
@@ -627,6 +632,9 @@ Responsive Section
     /* ------------------------------- */
 
     .myblog .card-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       flex-wrap: wrap;
     }
   }
