@@ -3,7 +3,7 @@
 }
 
 .items-center {
-  align-items: center;
+  align-items: flex-start;
 }
 
 .space-between {
