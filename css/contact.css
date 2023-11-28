@@ -56,8 +56,10 @@
 }
 
 .contact .contact-card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .contact .contact-card-wrapper .card img {

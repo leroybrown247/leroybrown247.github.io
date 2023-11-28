@@ -447,12 +447,7 @@ Responsive Section
     text-align: center;
     overflow: hidden;
   }
-
-  /* ------------------------------- */
-
-  .contact .contact-card-wrapper {
-    grid-template-columns: repeat(1, 1fr);
-  }
+ */
 
   /* ------------------------------- */
 
@@ -616,15 +611,16 @@ Responsive Section
   }
 
   .contact-card-wrapper {
-    display: flex;
-  }
+flex-direction: column;  
+}
 
   .card-wrapper img {
     height: 22rem;
   }
 
   .contact .contact-card-wrapper {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
   }
 
   /* ------------------------------- */
