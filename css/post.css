@@ -101,7 +101,7 @@
 
 .video_container {
   position: relative;
-  width: 50%;
+  width: 50rem;
   height: 500px;
   overflow: hidden;
   border-radius: 1.7rem;
