@@ -582,17 +582,17 @@ Responsive Section
 
   .post h3 {
     font-size: 1.6rem;
-    text-align: left;
+    text-align: center;
   }
 
   .post h4 {
     font-size: 1.4rem;
-    text-align: left;
+    text-align: center;
   }
 
   .post .paragraph {
     font-size: 0.8rem;
-    text-align: left;
+    text-align: center;
   }
 
   .post .social p {

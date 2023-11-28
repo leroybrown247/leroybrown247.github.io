@@ -1,35 +1,25 @@
 .contact {
-  background-color: var(--dark);
-  color: var(--pure);
+  background-color: var(--backgroundTwo);
+  padding-top: 5rem;
+}
+
+.contact .card a {
+  text-decoration: none;
 }
 
 .contact .section-heading {
   color: var(--pure);
-  padding-bottom: 3rem;
-  text-align: center;
-  padding-top: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.contact h2 {
-  font-weight: 100;
-  font-size: 1rem;
   padding-bottom: 1rem;
-  color: var(--pure);
-}
-
-.contact-link {
-  color: var(--pure);
+  text-align: center;
+  padding-top: 1rem;
   text-decoration: none;
-  transition: color 0.3 ease;
-}
-
-.contact-link:hover {
-  color: var(--primary);
 }
 
 .contact h3 {
-  color: var(--pure);
+  color: var(--primary);
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .contact h4 {
@@ -37,22 +27,19 @@
   line-height: 1.4rem;
   font-weight: 100;
   margin-top: 0.5rem;
-  color: var(--pure);
+  color: var(--primary);
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .contact h4:hover {
-  text-decoration: underline;
   color: var(--primary);
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .contact .container {
   padding-bottom: 100px;
-}
-
-.contact .section-heading span {
-  color: var(--primary);
 }
 
 .contact .contact-card-wrapper {
@@ -62,44 +49,22 @@
   gap: 2rem;
 }
 
-.contact .contact-card-wrapper .card img {
-  height: 50px;
-  margin-bottom: 1rem;
-}
-
-.contact .contact-card-wrapper .card {
-  text-align: center;
-}
-
-.contact .input-wrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
-  margin-bottom: 1rem;
-}
-
-.contact .input-wrap input {
-  margin-top: 3rem;
-}
-
-.contact .input-wrap-2 {
+.contact .social {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.contact input {
-  padding: 1rem;
+.contact .social img {
+  color: var(--primary);
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
 }
 
-.contact .input-wrap-2 input {
-  margin-bottom: 1rem;
-}
-
-.contact .input-wrap-2 textarea {
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
-
-.contact .btn-wrapper {
-  text-align: center;
+.contact .social img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }

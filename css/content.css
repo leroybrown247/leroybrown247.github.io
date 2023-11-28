@@ -166,7 +166,7 @@
 }
 
 .content .expand-btn::before {
-  content: "Read more...";
+  content: "Expand...";
 }
 
 .expand-btn:checked::before {
