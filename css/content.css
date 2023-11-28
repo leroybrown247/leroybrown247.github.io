@@ -22,9 +22,9 @@
   display: flex;
   align-items: center;
   background-color: var(--background);
-  padding-top: 2rem;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   border-radius: 1.7rem;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
@@ -33,7 +33,6 @@
   position: relative;
   width: 25rem;
   height: 25rem;
-  margin-left: 1rem;
   overflow: hidden;
   display: flex;
   align-items: flex-start;
