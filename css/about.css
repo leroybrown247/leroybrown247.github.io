@@ -82,3 +82,60 @@
   font-size: 1.2rem;
   line-height: 1.4;
 }
+
+/*-----*/
+
+.about .paragraph {
+  --max-lines: 10;
+  --line-height: 1.4;
+
+  max-height: calc(var(--max-lines) * 1em * var(--line-height));
+  line-height: var(--line-height);
+
+  overflow: hidden;
+  position: relative;
+
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.about .paragraph:has(+ .expand-btn:not(:checked))::before {
+  content: "";
+  position: absolute;
+  height: calc(1em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, var(--background));
+}
+
+.about .expand-btn {
+  appearance: none;
+  color: var(--paragraph);
+  /* padding-top: .5rem; */
+  padding-bottom: .5rem;
+  border-radius: .25rem; 
+  cursor: pointer; 
+  margin-top: .5rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+}
+
+.about .expand-btn:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.about .expand-btn::before {
+  content: "Read more...";
+}
+
+.expand-btn:checked::before {
+  content: "Collapse";
+}
+
+.about .paragraph:has(+ .expand-btn:checked) {
+  max-height: none;
+}
+
+/*-----*/
