@@ -119,11 +119,62 @@
   padding-right: 1rem;
 }
 
+/*-----*/
+
 .content .paragraph {
+  --max-lines: 5;
+  --line-height: 1.4;
+
+  max-height: calc(var(--max-lines) * 1em * var(--line-height));
+  line-height: var(--line-height);
+
+  overflow: hidden;
+  position: relative;
+
   font-size: 1.2rem;
-  line-height: 1.4;
   margin-bottom: 1.2rem;
 }
+
+.content .paragraph::before {
+  content: "";
+  position: absolute;
+  height: calc(1em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, var(--background));
+}
+
+.content .expand-btn {
+  appearance: none;
+  color: var(--paragraph);
+  /* padding-top: .5rem; */
+  padding-bottom: .5rem;
+  border-radius: .25rem; 
+  cursor: pointer; 
+  margin-top: .5rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+}
+
+.content .expand-btn:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.content .expand-btn::before {
+  content: "Read more...";
+}
+
+.expand-btn:checked::before {
+  content: "Collapse";
+}
+
+.content .paragraph:has(+ .expand-btn:checked) {
+  max-height: none;
+}
+
+/*-----*/
 
 .content .list {
   color: var(--paragraph);
@@ -154,7 +205,7 @@
 }
 
 .content .flex-2 {
-  margin-top: 4rem;
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
