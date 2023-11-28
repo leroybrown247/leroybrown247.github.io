@@ -82,9 +82,10 @@ body {
   font-size: 1.6rem;
 }
 
-.hero .right h1 {
+.hero-heading .right h1 {
   font-size: 4rem;
   line-height: 1.2;
+  font-weight: 100;
   margin-bottom: 0.5rem;
 }
 
