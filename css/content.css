@@ -51,7 +51,8 @@
 }
 
 .content .left .project-one:hover {
-  cursor: pointer;
+  cursor: url(../images/scroll.svg), auto;
+
   transform: translateY(-70%);
 }
 
@@ -65,7 +66,7 @@
 }
 
 .content .left .project-two:hover {
-  cursor: pointer;
+  cursor: url(../images/scroll.svg), auto;
   transform: translateY(-90%);
 }
 
@@ -79,7 +80,8 @@
 }
 
 .content .left .project-three:hover {
-  cursor: pointer;
+  cursor: url(../images/scroll.svg), auto;
+
   transform: translateY(-70%);
 }
 
@@ -93,7 +95,8 @@
 }
 
 .content .left .project-four:hover {
-  cursor: pointer;
+  cursor: url(../images/scroll.svg), auto;
+
   transform: translateY(-10%);
 }
 
@@ -107,7 +110,8 @@
 }
 
 .content .left .project-five:hover {
-  cursor: pointer;
+  cursor: url(../images/scroll.svg), auto;
+
   transform: translateY(-70%);
 }
 
@@ -149,10 +153,10 @@
   appearance: none;
   color: var(--paragraph);
   /* padding-top: .5rem; */
-  padding-bottom: .5rem;
-  border-radius: .25rem; 
-  cursor: pointer; 
-  margin-top: .5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
   font-family: Poppins, sans-serif;
   font-size: 1.2rem;
 }
