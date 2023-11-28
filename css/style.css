@@ -356,6 +356,8 @@ Responsive Section
   .content .left {
     max-height: 25rem;
     margin-top: 2rem;
+    margin-left: none;
+
   }
 
   .content .left img {
@@ -374,19 +376,20 @@ Responsive Section
   }
 
   .content h3 {
-    text-align: left;
+    text-align: center;
     padding-top: 1rem;
   }
 
   .content h4 {
     display: flex;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
   }
 
   .content .paragraph {
     display: flex;
     justify-content: center;
-    text-align: left;
+    text-align: center;
   }
 
   .content .social {
@@ -544,15 +547,19 @@ Responsive Section
 
   .content h1 {
     font-size: 2rem;
+    text-align: center;
+
   }
 
   .content h3 {
     font-size: 1.6rem;
+    text-align: center;
+
   }
 
   .content h4 {
     font-size: 1.4rem;
-    text-align: left;
+    text-align: center;
   }
 
   .content .paragraph {
