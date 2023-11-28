@@ -487,12 +487,8 @@ Responsive Section
     padding-bottom: 10rem;
   }
 
-  .hero .left {
-    margin-top: -6rem;
-  }
-
   .hero .left img {
-    height: 15rem;
+    display: none;
   }
 
   .hero .right {
