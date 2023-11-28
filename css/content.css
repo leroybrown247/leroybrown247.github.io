@@ -135,7 +135,7 @@
   margin-bottom: 1.2rem;
 }
 
-.content .paragraph::before {
+.content .paragraph:has(+ .expand-btn:not(:checked))::before {
   content: "";
   position: absolute;
   height: calc(1em * var(--line-height));
