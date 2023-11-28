@@ -51,8 +51,7 @@
 
 .content .left .project-one:hover {
   cursor: url(../images/scroll.svg), auto;
-
-  transform: translateY(-70%);
+  transform: translateY(-55%);
 }
 
 .content .left .project-two {
@@ -66,7 +65,7 @@
 
 .content .left .project-two:hover {
   cursor: url(../images/scroll.svg), auto;
-  transform: translateY(-90%);
+  transform: translateY(-80%);
 }
 
 .content .left .project-three {
