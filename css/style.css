@@ -431,6 +431,7 @@ Responsive Section
   .post h4 {
     display: flex;
     justify-content: center;
+    text align: center;
   }
 
   .post .paragraph {
