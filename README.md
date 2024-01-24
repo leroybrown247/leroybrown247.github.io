@@ -38,6 +38,10 @@ I wanted to implement this feature in order to tidy up the user interface for th
 
 ![Animation](/images/responsive-text.gif)
 
+## Final Thoughts:
+I really enjoy using this basic yet fundamental tech stack. I find it super reliable and stable. The downsides do include having to use repetitive code throughout the pages in the project. Such as my navigation, contacts and footer. This seems redundant for larger projects and I can see the benefit of using tech and libraries such as React making it easier to manage your project and easily making changes simpler to implement.
+
+This project is valuable for me in order to develop my responsive design, HTML, CSS and JavaScript skills.
 
 ## Stretch goals:
 
