@@ -150,7 +150,6 @@
 .content .expand-btn {
   appearance: none;
   color: var(--paragraph);
-  /* padding-top: .5rem; */
   padding-bottom: 0.5rem;
   border-radius: 0.25rem;
   cursor: pointer;
