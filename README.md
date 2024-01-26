@@ -4,7 +4,7 @@
 
 ## leroy.dev is a portfolio based ongoing project.
 
-I improve my skills in responsive design. I build the website section-by-section using HTML, CSS and JavaScript. Moreover we make our website completely responsive for any screen ratios. This is a on going project in which I come back to a add to features, refinements and stretch goals.
+I improve my skills in responsive design. I build the website section-by-section using HTML, CSS and JavaScript. Moreover we make our website completely responsive for any screen ratios. This is a on going project in which I come back to adding features, refinements and stretch goals.
 
 #### Wireframe: 
 I design a wire frame in Figma making sure to it is responsive.
